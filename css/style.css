@@ -1,0 +1,14 @@
+.container-lg, .container-fluid {
+    background-color: rgb(215, 243, 219);
+}
+.col {
+    border: 1px solid rgb(74, 129, 78);
+
+}
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Sevillana", cursive;
+}
