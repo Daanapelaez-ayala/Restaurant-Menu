@@ -1,0 +1,26 @@
+.container-lg, .container-fluid {
+    background-color: rgb(215, 243, 219);
+    text-align: center;
+    color: #000000;
+   
+}
+.col {
+    border: 2px solid rgb(74, 129, 78);
+
+}
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Della Respira", serif;
+  font-weight: 300;
+  font-style: normal;
+ 
+}
+.body
+{background-color: rgb(91, 109, 91);}
+
+
+
+

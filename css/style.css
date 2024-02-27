@@ -1,6 +1,7 @@
 .container-lg, .container-fluid {
     background-color: rgb(215, 243, 219);
     text-align: center;
+    color: #000000;
    
 }
 .col {
@@ -37,7 +38,7 @@
     width: 0;
     left: 0;
     height:2px;
-    background: #0f9e30;
+    background: #94bd9d;
     transition: .3s;
 }
 .navbar a:hover::before{
