@@ -14,13 +14,55 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Della Respira", serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
  
 }
 .body
 {background-color: rgb(91, 109, 91);}
 
-
+.navbar a {
+    position: relative;
+    font-size: 29px;
+    color: #a8c4b4;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: "Della Respira", serif;
+    
+}
+.navbar a::before{
+    content: '' ;
+    position: absolute;
+    top: 100% ;
+    width: 0;
+    left: 0;
+    height:2px;
+    background: #94bd9d;
+    transition: .3s;
+}
+.navbar a:hover::before{
+    width: 100%;
+  
+}
+.picture
+{
+    color: #a8c4b4;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(185, 162, 179, 0.459);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+p.a {
+    word-break: break-all;
+  }
 
 

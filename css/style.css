@@ -61,3 +61,6 @@
     align-items: center;
     z-index: 100;
 }
+p.a {
+    word-break: break-all;
+  }
